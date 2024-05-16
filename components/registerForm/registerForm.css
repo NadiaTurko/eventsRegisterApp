@@ -1,0 +1,63 @@
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+  }
+  
+  .registration-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registration-form label {
+    margin-bottom: 10px;
+  }
+  
+  .registration-form input, .registration-form select {
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .registration-form fieldset {
+    border: none;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+  .registration-form fieldset legend {
+    margin-bottom: 10px;
+  }
+  
+  .registration-form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .registration-form input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  .registration-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .registration-form button:hover {
+    background-color: #0056b3;
+  }  

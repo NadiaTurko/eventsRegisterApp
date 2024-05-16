@@ -1,0 +1,33 @@
+.events__list {
+    width: max-content;
+    margin: 0 auto;
+}
+.events__grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 16px;
+}
+
+
+.sort__controls {
+   display: flex;
+   justify-content: center; 
+   margin-bottom: 10px;
+  }
+  
+  .sort__controls button {
+    margin-right: 8px;
+    padding: 8px 16px; 
+    border: 1px solid #8c8989;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px (0,0,0,0.1);
+    background-color: white; 
+    color: #333; 
+    cursor: pointer; 
+  }
+  
+  .sort__controls button:hover {
+    background-color: #007bff; 
+
+  }
+
